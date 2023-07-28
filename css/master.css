@@ -1,0 +1,273 @@
+body {
+     background-color: white;
+     Font-size :18px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.result {
+    width: 300px;
+    height: 420px;
+    padding: 15px;
+    margin: 50px auto;
+    background-color:  hsl(252, 100%, 67%);
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 90px;
+    left: -200px;
+    overflow: hidden;
+}
+
+.result .your-result {
+    color: hsl(0, 0%, 100%);
+   padding: 20px;
+   opacity: 0.8;
+   font-size: 15px;
+   position: absolute;
+   top: -1%;
+}
+
+.result .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color:  hsla(256, 72%, 46%, 1);
+    position: absolute;
+    top: 18%;
+
+}
+
+.result .numb {
+    color: white;
+    font-weight: bold;
+    font-size: 350%;
+    position: absolute;
+    top: 30%;
+}
+
+.result .disc-circle {
+  color: white;
+  position: absolute;
+  top: 50%;
+  opacity:.5;
+}
+
+.result .great {
+    color: white;
+    font-size: 33px;
+    position: absolute;
+    top:55%;
+    left: 36%;
+}
+
+.result .scored-higher {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 73%;
+    left: 19%;
+    text-align: center;
+}
+
+.summary {
+    width: 300px;
+    height: 420px;
+    padding: 15px;
+    margin: 50px auto;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 10px 5px 10px  lightblue;
+    position: relative;
+    top: -415px;
+    left: 90px;
+    border-radius: 10%;
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+}
+
+.summary .text {
+    position: absolute;
+    left:20%;
+    top: 3%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+svg {
+    position: absolute;
+    left: 22%;
+    top: 23%;
+}
+
+.summary .reaction {
+    color: hsl(0, 100%, 67%);
+
+position: absolute;
+left: 34%;
+top: 22.8%;
+
+}
+
+.summary .background-one {
+    background-color: rgb(255 245 245);
+width: 250px;
+height: 50px;
+position: absolute;
+top: 20%;
+left: 17%;
+z-index: -1;
+border: 2px solid rgb(255 245 245) ;
+border-radius: 7px; 
+}
+
+.summary .numb-100 {
+    position: absolute;
+    top: 23%;
+    left: 78%;
+    font-size: 17px;
+    opacity: 0.5;
+}
+
+.summary .numb-80{
+    position: absolute;
+    top: 23%;
+    left: 68%;
+    font-size: 17px;
+}
+
+.summary .memory {
+    color:hsl(39, 100%, 56%);
+    position: absolute;
+    top: 37%;
+    left: 35%;
+}
+
+.summary .memory-icon {
+    position: absolute;
+    top:37%;
+    left: 22%;
+}
+
+.summary .background-two {
+    background-color: rgb(255 251 243);
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    top: 34%;
+    left: 17%;
+    z-index: -1;
+    border: 2px solid rgb(255 251 243) ;
+    border-radius: 7px; 
+}
+
+.summary .numb2-100 {
+    position: absolute;
+    top: 37%;
+    left: 78%;
+    font-size: 17px;
+    opacity: 0.5;
+}
+
+.summary .numb-92{
+    font-size: 17px;
+    position: absolute;
+    top:37%;
+    left: 67%;
+}
+
+.summary .verbal {
+    position: absolute;
+    top: 52%;
+    left: 36%;
+    color:  hsl(166, 100%, 37%);
+}
+
+.summary .verbal-icon {
+    position: absolute;
+    top: 52%;
+}
+
+.summary .background-three {
+    background-color: rgb(238 253 248) ;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    top: 49%;
+    left: 17%;
+    z-index:-1;
+    border: 2px solid rgb(238 253 248) ;
+    border-radius: 7px; 
+}
+
+.summary .numb3-100{
+    position: absolute;
+    top: 52%;
+    left: 77%;
+    opacity: .5;
+}
+
+.summary .numb-61{
+    position: absolute;
+    top: 52%;
+    left: 66%;
+}
+
+.summary .visual {
+    position: absolute;
+    top: 67%;
+    left: 36%;
+    color: hsl(234, 85%, 45%);
+}
+
+.summary .visual-icon {
+    position: absolute;
+    top: 67%;
+    left: 22%;
+}
+
+.summary .background-four {
+    background-color: rgb(243 244 253);
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    top: 63%;
+    left: 17%;
+    z-index:-1;
+    border: 2px solid rgb(243 244 253) ;
+    border-radius: 7px; 
+}
+
+.summary .numb4-100{
+    position: absolute;
+    top: 67%;
+    left: 77%;
+    opacity: .5
+}
+
+.summary .numb-72{
+    position: absolute;
+    top: 67%;
+    left: 66%;
+}
+
+.summary button {
+    position: absolute;
+    top: 80%;
+    left: 23%;
+    background-color:rgb(47 60 88) ;
+    color: white;
+    width: 65%;
+    height: 11%;
+    border: 2px solid ;
+    border-radius: 30px;
+    font-size: 17px;
+}
+
+button:hover,
+button:focus-visible{
+    background-color: blueviolet;
+}
